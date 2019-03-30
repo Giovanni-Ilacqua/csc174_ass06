@@ -39,7 +39,7 @@
         </div>
 
         <div class="button">
-            <a href="services.php"><span class="letter-spacing">READ</span><br> MORE</a>
+            <a href="newsletter.php"><span class="letter-spacing">Sign<br> Up!</span></a>
         </div>
 
     </section>
