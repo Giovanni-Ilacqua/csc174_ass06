@@ -1,7 +1,7 @@
 <?php
 // Database Variables (edit with your own server information)
-// $server = 'localhost'
-$server = '66.147.242.186';
+$server = 'localhost';
+// $server = '66.147.242.186';
 $user = 'urcscon3_atlanti';
 $pass = 'definitelynotpassword';
 $db = 'urcscon3_atlanti';
