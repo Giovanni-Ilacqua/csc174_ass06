@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Giodme Personal Website</title>
+    <title>Assignment 06</title>
     <?php include 'include/html-links.inc'; ?>
 </head>
 
@@ -30,11 +30,13 @@
     <section class="section-grid">
         <div class="catchphrase">
             <h2>
-                <span class="yellow-background">LET'S</span>
-                <br>
-                <span class="yellow-background">GET FIT</span>
-                <br>
-                <span class="yellow-background">TOGETHER</span>
+                <a href="http://csc174.org/midterm/gilacqua/">
+                    <span class="yellow-background">LET'S</span>
+                    <br>
+                    <span class="yellow-background">GET FIT</span>
+                    <br>
+                    <span class="yellow-background">TOGETHER</span>
+                </a>
             </h2>
         </div>
 

@@ -7,8 +7,8 @@
 
     <nav>
         <ul>
+            <li><a class="yellow" href="newsletter.php">NEWSLETTER</a></li>
             <li><a class="yellow" href="services.php">SERVICES</a></li>
-            <li><a class="yellow" href="services.php">READ MORE</a></li>
         </ul>
     </nav>
 </header>

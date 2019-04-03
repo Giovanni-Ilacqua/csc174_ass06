@@ -7,6 +7,6 @@
 - Newsletter
 	- users join newsletter and go to the thank you page
 - Thank you page
-	- the thank you page is the services page with a header thanking them
+	- the thank you page is thanking them and has a button to learn more
 - Services
 	- The services tell the user more about the website 
