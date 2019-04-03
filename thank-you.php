@@ -2,21 +2,38 @@
 	// 1. Create a database connection
 	require_once("connect-db.php");
 
-	
-	// these are from the text INPUT fields...
-	$firstName = Trim(stripslashes($_POST['firstName'])); 
-	$lastName = Trim(stripslashes($_POST['lastName'])); 
-	$email = Trim(stripslashes($_POST['email'])); 
-	
-	
-	// You really should escape all strings
-	//$insertData = mysqli_real_escape_string($connection, $insertData);
-		// Repeat the above line as needed
-	
-	// 2. Perform database query
-	$query  = "INSERT INTO subscribers (first_name, last_name, email) VALUES ('$firstName','$lastName','$email')";
-	$result = mysqli_query($connection, $query);
+    // Required field names
+    $required = array('firstName', 'lastName', 'email');
 
+    // Loop over field names, make sure each one exists and is not empty
+    $counter = 0;
+    foreach($required as $field) {
+    if (isset($_POST[$field])) {
+        $counter = counter + 1;
+        }
+    }
+
+    if ($counter == 3) {
+    
+        // these are from the text INPUT fields...
+        $firstName = Trim(stripslashes($_POST['firstName'])); 
+        $lastName = Trim(stripslashes($_POST['lastName'])); 
+        $email = Trim(stripslashes($_POST['email'])); 
+        
+        
+        // You really should escape all strings
+        $firstName = mysqli_real_escape_string($connection, $firstName);
+        $lastName = mysqli_real_escape_string($connection, $lastName);
+        $email = mysqli_real_escape_string($connection, $email);
+        
+        
+        // 2. Perform database query
+        $query  = "INSERT INTO subscribers (first_name, last_name, email) VALUES ('$firstName','$lastName','$email')";
+        $result = mysqli_query($connection, $query);
+
+    }
+
+	
 ?>
 
 
