@@ -9,7 +9,8 @@
     $counter = 0;
     foreach($required as $field) {
     if (isset($_POST[$field])) {
-        $counter = counter + 1;
+        $counter = $counter + 1;
+         
         }
     }
 
