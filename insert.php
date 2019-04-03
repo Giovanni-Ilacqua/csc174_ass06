@@ -10,7 +10,9 @@
 	
 	
 	// You really should escape all strings
-	//$insertData = mysqli_real_escape_string($connection, $insertData);
+	$firstName = mysqli_real_escape_string($connection, $firstName);
+	$lastName = mysqli_real_escape_string($connection, $lastName);
+	$email = mysqli_real_escape_string($connection, $email);
 		// Repeat the above line as needed
 	
 	// 2. Perform database query
