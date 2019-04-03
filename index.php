@@ -30,11 +30,13 @@
     <section class="section-grid">
         <div class="catchphrase">
             <h2>
-                <span class="yellow-background">LET'S</span>
-                <br>
-                <span class="yellow-background">GET FIT</span>
-                <br>
-                <span class="yellow-background">TOGETHER</span>
+                <a href="http://csc174.org/midterm/gilacqua/">
+                    <span class="yellow-background">LET'S</span>
+                    <br>
+                    <span class="yellow-background">GET FIT</span>
+                    <br>
+                    <span class="yellow-background">TOGETHER</span>
+                </a>
             </h2>
         </div>
 
