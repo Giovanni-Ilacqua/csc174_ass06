@@ -20,7 +20,7 @@
         <h2>SUBSCRIBE TO MY NEWSLETTER</h2>
 
         <div class="form-wrapper">
-            <form method="POST" action="#" class="form-grid">
+            <form method="POST" action="insert.php" class="form-grid">
                 <label for="firstName">First Name:</label>
                 <input type="text" name="firstName" id="firstName" required placeholder="John">
 
