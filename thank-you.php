@@ -74,7 +74,7 @@
             In case you missed it, here are some of our other services!
         </div>    
 
-        <button><a href="services.php">LEARN MORE</a> </button>   
+        <a  href="services.php">LEARN MORE</a>  
      
 
     </main>
