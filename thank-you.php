@@ -1,6 +1,6 @@
 <?php
-	// 1. Create a database connection
-	require_once("connect-db.php");
+    // 1. Create a database connection
+    require_once("connect-db.php");
 
     // Required field names
     $required = array('firstName', 'lastName', 'email');
@@ -34,19 +34,19 @@
 
     }
 
-	
+    
 ?>
 
 
 
 
 <?php
-	// 4. Step 4 is unnecessary here because we didn't 
-	//	  get data that needs to be released
-	//mysqli_free_result($result);
+    // 4. Step 4 is unnecessary here because we didn't 
+    //    get data that needs to be released
+    //mysqli_free_result($result);
 
-	// 5. Close database connection
-	mysqli_close($connection);
+    // 5. Close database connection
+    mysqli_close($connection);
 ?>
 
 <!DOCTYPE html>
@@ -74,8 +74,8 @@
             In case you missed it, here are some of our other services!
         </div>    
 
-        <a  href="services.php">LEARN MORE</a>  
-     
+        <button class = "submit-button"><a href="services.php">LEARN MORE</a> </button>   
+        
 
     </main>
 
