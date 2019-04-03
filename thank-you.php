@@ -74,8 +74,9 @@
             In case you missed it, here are some of our other services!
         </div>    
 
+        <div class = "learn-more">
         <a href="services.php">LEARN MORE</a>
-        
+        </div>
 
     </main>
 
